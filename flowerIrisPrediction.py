@@ -52,4 +52,6 @@ tree.export_graphviz(classifier, out_file=dot_data,
 
 graph = pydot.graph_from_dot_data(dot_data.getvalue())
 
-graph[0].write_pdf("iris.pdf") 
+graph[0].write_pdf("iris.pdf")
+
+print("This program generates PDF that shows how prediction tree works. This program generated iris.pdf. Please do check in same directory wherever you are running this code..")
